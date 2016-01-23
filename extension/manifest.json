@@ -1,0 +1,12 @@
+{
+  "name": "what 4 meal",
+  "description": "what4meal A application for finding out what can be made from the food items yo have!!",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {"128": "icon_128.png" }
+}

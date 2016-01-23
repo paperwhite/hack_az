@@ -9,7 +9,7 @@ class Page(webapp2.RequestHandler):
 
     if (os.getenv('SERVER_SOFTWARE') and
       os.getenv('SERVER_SOFTWARE').startswith('Google App Engine/')):
-      db = MySQLdb.connect(unix_socket='/cloudsql/your-project-id:your-instance-name', user='root')
+      db = MySQLdb.connect(unix_socket='/cloudsql/whats-4-dinner-1199:instance', user='root')
     else:
       db = MySQLdb.connect(host='localhost', user='root')
 
